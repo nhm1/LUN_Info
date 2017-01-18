@@ -1,0 +1,2 @@
+# LUN_Info
+This is a bash script which can pull out information from  Storage Volume Controller(SVC) with provided LUN ID. Like LUN status, Mapped hosts, WWPNs from hosts. Once it fetches the WWPN from mapped hosts, script should trigger to other file which in turn start logging in to SAN switches one by one to fetch PORT information  like port status,Zoning information etc..  This will be very useful during any CritSit to get required information without manually logging in.  I would like to hear from Storage Adminis, if have any opinion/suggestions on this.
